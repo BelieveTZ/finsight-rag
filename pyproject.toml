@@ -1,0 +1,39 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "finsight-rag"
+version = "0.1.0"
+description = "An evaluation-first RAG agent for evidence-grounded financial report research."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Liu Tianzhe" }]
+dependencies = [
+  "pydantic-settings>=2.5,<3",
+  "typer>=0.12,<1",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.3,<9",
+  "ruff>=0.9,<1",
+]
+
+[project.scripts]
+finsight = "finsight.cli:app"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/finsight"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+
