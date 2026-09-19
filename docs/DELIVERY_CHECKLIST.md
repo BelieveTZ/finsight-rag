@@ -38,7 +38,7 @@ Required before resume readiness:
 - [x] Finish Windows setup, architecture explanation, limitations, readable README,
       actual-results-based resume bullets and interview notes.
 - [x] Run tests/lint, verify documentation links and review the publishable file set.
-- [ ] Publish the release and verify the actual GitHub-rendered materials.
+- [x] Publish the repository contents and verify the actual GitHub-rendered materials.
 
 ## Data Selection Policy (Before New Experiments)
 
@@ -75,7 +75,8 @@ and Ruff pass. The model was unloaded and the project-owned service stopped;
 the remaining local viewer does not use GPU. See [ACCEPTANCE_AUDIT.md](ACCEPTANCE_AUDIT.md).
 
 The local research prototype is ready to be described using [RESUME.md](RESUME.md).
-Remote publication/render verification is separate and recorded after release.
+Repository publication and GitHub rendering were verified on 2026-09-19 for
+commit `4b22b78`; see [ACCEPTANCE_AUDIT.md](ACCEPTANCE_AUDIT.md).
 
 ## Earlier Progress Record
 
