@@ -1,0 +1,10 @@
+{
+  "version": "portfolio-corpus-v1",
+  "source_revision": "cc39aeb4afdf33909ee1412188bf89035950c2eb",
+  "documents": [
+    {"document_id": "3M_2018_10K", "company": "3M", "aliases": ["3M"], "year": 2018, "split": "development", "pdf_pages": 160, "pdf_sha256": "faf10c53fc6f1a8aa346ec3db79145e3ae6fbb3753c8064924e174d0a973934d", "publisher_url": "https://investors.3m.com/financials/sec-filings/content/0001558370-19-000470/0001558370-19-000470.pdf"},
+    {"document_id": "PEPSICO_2022_10K", "company": "PepsiCo", "aliases": ["PepsiCo"], "year": 2022, "split": "development", "pdf_pages": 503, "pdf_sha256": "7d8a9f3374e429c58f101319e2da8a0e601a89859e1e4f6854163dd5f8ce6b47", "publisher_url": "https://pepsico.gcs-web.com/static-files/d051bdd6-c6d2-4814-826f-ece589b88d4c"},
+    {"document_id": "AMD_2022_10K", "company": "AMD", "aliases": ["AMD", "Advanced Micro Devices"], "year": 2022, "split": "final", "pdf_pages": 121, "pdf_sha256": "a3bd74088fae0ad4aa03d04998a1f4c64fd0b3c693841601b0ac49b46cf5c1f4", "publisher_url": "https://ir.amd.com/sec-filings/content/0000002488-23-000047/0000002488-23-000047.pdf"},
+    {"document_id": "CVSHEALTH_2022_10K", "company": "CVS Health", "aliases": ["CVS Health", "CVS"], "year": 2022, "split": "final", "pdf_pages": 213, "pdf_sha256": "183c196a41793cd50002ff6b88f8c6d32e4fcb1117ab490a732414e1208cda8f", "publisher_url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000064803/e4b97418-e95e-4391-b2d9-8c604c4950ac.pdf"}
+  ]
+}

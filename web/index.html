@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FinSight-RAG | Evidence Workspace</title><link rel="stylesheet" href="/style.css"></head>
+<body>
+<header><div class="brand">FinSight-RAG <span>Evidence Workspace</span></div><span id="runtime" class="badge">Connecting</span></header>
+<main>
+<section class="controls">
+<div class="field"><label for="document">Annual report</label><select id="document"></select></div>
+<div class="field saved"><label for="saved">Saved development run</label><select id="saved"><option value="">New question</option></select></div>
+<form id="question-form"><fieldset class="answer-mode"><legend>Answer type</legend><label><input type="radio" name="answer-kind" id="numeric-mode" value="numeric" checked>Numeric</label><label><input type="radio" name="answer-kind" id="fact-mode" value="fact">Report fact</label></fieldset><label for="question">Question</label><textarea id="question" maxlength="1200" rows="2">What were 3M's FY2018 capital expenditures in USD millions?</textarea><div class="actions"><span id="doc-meta"></span><button id="ask" type="submit" disabled>Run question</button></div></form>
+</section>
+<div id="notice" role="status" aria-live="polite"></div>
+<div class="workspace">
+<section class="answer-panel">
+<div class="section-heading"><h1>Answer &amp; evidence</h1><span id="run-kind" class="badge muted">No result</span></div>
+<div id="answer" class="answer-text">No question selected.</div>
+<dl id="metrics" class="metrics"></dl>
+<div id="citation" hidden><div class="section-heading"><h2>Source citation</h2><a id="open-pdf" target="_blank" rel="noopener">Open PDF</a></div><div id="source-name"></div><blockquote id="quote"></blockquote><span id="chunk" class="mono"></span></div>
+<details id="checks-panel"><summary>Validation checks</summary><ul id="checks"></ul></details>
+<details><summary>Retrieved evidence</summary><ol id="retrieved"></ol></details>
+</section>
+<section class="source-panel"><div class="section-heading"><h2>Original report</h2><span id="page-label">PDF page 1</span></div><div class="page-toolbar"><label for="page-number">PDF page</label><input id="page-number" type="number" min="1" value="1"><a id="full-report" target="_blank" rel="noopener">Open full PDF</a></div><div id="page-error" role="status" hidden></div><a id="page-image-link" target="_blank" rel="noopener" title="Open original page image"><img id="pdf" alt="Original financial report page"></a></section>
+</div>
+</main>
+<footer><span>Local research prototype</span><span id="model">Qwen3-8B · BGE · Hybrid retrieval</span><span>Not financial advice</span></footer>
+<script src="/app.js"></script>
+</body></html>

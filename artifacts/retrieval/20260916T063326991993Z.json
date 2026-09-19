@@ -1,0 +1,2630 @@
+{
+  "at_utc": "2026-09-16T06:33:26.879820+00:00",
+  "scope": "development retrieval only",
+  "query_mode": "financial-v1",
+  "query_processing_sha256": "d96f12053c46d1e3b5d6712dee472a93de261a113c4cc67feb8147368003cb54",
+  "manifest_sha256": "b2d8b5a935c9886503d0283c3a3b6bcc36646f8df3c0e3d7cafd5060b16e41cb",
+  "config": {
+    "model": "BAAI/bge-small-en-v1.5",
+    "model_repository": "qdrant/bge-small-en-v1.5-onnx-q",
+    "model_revision": "52398278842ec682c6f32300af41344b1c0b0bb2",
+    "model_hashes": {
+      "config.json": "13582bcf2effc85b7bf3d3f5532e686bc1c9ce86bb009d10f0ec33cbe92299dd",
+      "model_optimized.onnx": "51f1bd0addd6e859e42c2c8021a5e5461385bb676a649f4b269aa445449f2431",
+      "special_tokens_map.json": "5d5b662e421ea9fac075174bb0688ee0d9431699900b90662acd44b2a350503a",
+      "tokenizer.json": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+      "tokenizer_config.json": "0b29c7bfc889e53b36d9dd3e686dd4300f6525110eaa98c76a5dafceb2029f53"
+    },
+    "pdf_sha256": "faf10c53fc6f1a8aa346ec3db79145e3ae6fbb3753c8064924e174d0a973934d",
+    "chunk_tokens": 384,
+    "overlap": 64,
+    "pypdf": "6.18.1",
+    "fastembed": "0.7.4",
+    "tokenizers": "0.23.2",
+    "query_prefix": "Represent this sentence for searching relevant passages: "
+  },
+  "packages": {
+    "numpy": "2.5.3",
+    "onnxruntime": "1.30.0",
+    "rank-bm25": "0.2.2"
+  },
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "chunk_count": 431,
+  "max_chunk_tokens_with_special": 387,
+  "pages": [
+    {
+      "pdf_page": 1,
+      "characters": 3968,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 2,
+      "characters": 1922,
+      "chunks": 1
+    },
+    {
+      "pdf_page": 3,
+      "characters": 1746,
+      "chunks": 1
+    },
+    {
+      "pdf_page": 4,
+      "characters": 4146,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 5,
+      "characters": 5439,
+      "chunks": 4
+    },
+    {
+      "pdf_page": 6,
+      "characters": 5607,
+      "chunks": 4
+    },
+    {
+      "pdf_page": 7,
+      "characters": 5018,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 8,
+      "characters": 3048,
+      "chunks": 2
+    },
+    {
+      "pdf_page": 9,
+      "characters": 3635,
+      "chunks": 2
+    },
+    {
+      "pdf_page": 10,
+      "characters": 5492,
+      "chunks": 4
+    },
+    {
+      "pdf_page": 11,
+      "characters": 5956,
+      "chunks": 4
+    },
+    {
+      "pdf_page": 12,
+      "characters": 2973,
+      "chunks": 2
+    },
+    {
+      "pdf_page": 13,
+      "characters": 3063,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 14,
+      "characters": 1439,
+      "chunks": 2
+    },
+    {
+      "pdf_page": 15,
+      "characters": 3009,
+      "chunks": 2
+    },
+    {
+      "pdf_page": 16,
+      "characters": 4195,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 17,
+      "characters": 3938,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 18,
+      "characters": 4394,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 19,
+      "characters": 5273,
+      "chunks": 4
+    },
+    {
+      "pdf_page": 20,
+      "characters": 2082,
+      "chunks": 2
+    },
+    {
+      "pdf_page": 21,
+      "characters": 3981,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 22,
+      "characters": 1769,
+      "chunks": 2
+    },
+    {
+      "pdf_page": 23,
+      "characters": 2984,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 24,
+      "characters": 2839,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 25,
+      "characters": 2543,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 26,
+      "characters": 4842,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 27,
+      "characters": 3810,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 28,
+      "characters": 3564,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 29,
+      "characters": 2651,
+      "chunks": 2
+    },
+    {
+      "pdf_page": 30,
+      "characters": 3642,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 31,
+      "characters": 4433,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 32,
+      "characters": 4758,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 33,
+      "characters": 3138,
+      "chunks": 2
+    },
+    {
+      "pdf_page": 34,
+      "characters": 2516,
+      "chunks": 2
+    },
+    {
+      "pdf_page": 35,
+      "characters": 2533,
+      "chunks": 2
+    },
+    {
+      "pdf_page": 36,
+      "characters": 2029,
+      "chunks": 2
+    },
+    {
+      "pdf_page": 37,
+      "characters": 2978,
+      "chunks": 2
+    },
+    {
+      "pdf_page": 38,
+      "characters": 2602,
+      "chunks": 2
+    },
+    {
+      "pdf_page": 39,
+      "characters": 4132,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 40,
+      "characters": 4546,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 41,
+      "characters": 5282,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 42,
+      "characters": 3894,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 43,
+      "characters": 5313,
+      "chunks": 4
+    },
+    {
+      "pdf_page": 44,
+      "characters": 3582,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 45,
+      "characters": 2956,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 46,
+      "characters": 3493,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 47,
+      "characters": 4172,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 48,
+      "characters": 4647,
+      "chunks": 4
+    },
+    {
+      "pdf_page": 49,
+      "characters": 4242,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 50,
+      "characters": 4421,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 51,
+      "characters": 4990,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 52,
+      "characters": 4206,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 53,
+      "characters": 994,
+      "chunks": 1
+    },
+    {
+      "pdf_page": 54,
+      "characters": 5049,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 55,
+      "characters": 510,
+      "chunks": 1
+    },
+    {
+      "pdf_page": 56,
+      "characters": 1240,
+      "chunks": 1
+    },
+    {
+      "pdf_page": 57,
+      "characters": 852,
+      "chunks": 1
+    },
+    {
+      "pdf_page": 58,
+      "characters": 1855,
+      "chunks": 2
+    },
+    {
+      "pdf_page": 59,
+      "characters": 2683,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 60,
+      "characters": 2380,
+      "chunks": 2
+    },
+    {
+      "pdf_page": 61,
+      "characters": 5270,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 62,
+      "characters": 5797,
+      "chunks": 4
+    },
+    {
+      "pdf_page": 63,
+      "characters": 5561,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 64,
+      "characters": 5107,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 65,
+      "characters": 4823,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 66,
+      "characters": 6240,
+      "chunks": 4
+    },
+    {
+      "pdf_page": 67,
+      "characters": 6158,
+      "chunks": 4
+    },
+    {
+      "pdf_page": 68,
+      "characters": 6235,
+      "chunks": 4
+    },
+    {
+      "pdf_page": 69,
+      "characters": 6131,
+      "chunks": 4
+    },
+    {
+      "pdf_page": 70,
+      "characters": 5819,
+      "chunks": 4
+    },
+    {
+      "pdf_page": 71,
+      "characters": 4984,
+      "chunks": 4
+    },
+    {
+      "pdf_page": 72,
+      "characters": 2860,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 73,
+      "characters": 2532,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 74,
+      "characters": 3834,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 75,
+      "characters": 5087,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 76,
+      "characters": 4240,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 77,
+      "characters": 2734,
+      "chunks": 2
+    },
+    {
+      "pdf_page": 78,
+      "characters": 2436,
+      "chunks": 2
+    },
+    {
+      "pdf_page": 79,
+      "characters": 2049,
+      "chunks": 1
+    },
+    {
+      "pdf_page": 80,
+      "characters": 830,
+      "chunks": 1
+    },
+    {
+      "pdf_page": 81,
+      "characters": 1939,
+      "chunks": 2
+    },
+    {
+      "pdf_page": 82,
+      "characters": 3020,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 83,
+      "characters": 2247,
+      "chunks": 2
+    },
+    {
+      "pdf_page": 84,
+      "characters": 1527,
+      "chunks": 2
+    },
+    {
+      "pdf_page": 85,
+      "characters": 4447,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 86,
+      "characters": 4271,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 87,
+      "characters": 2608,
+      "chunks": 2
+    },
+    {
+      "pdf_page": 88,
+      "characters": 2960,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 89,
+      "characters": 3039,
+      "chunks": 2
+    },
+    {
+      "pdf_page": 90,
+      "characters": 4532,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 91,
+      "characters": 3280,
+      "chunks": 2
+    },
+    {
+      "pdf_page": 92,
+      "characters": 2517,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 93,
+      "characters": 3075,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 94,
+      "characters": 4909,
+      "chunks": 4
+    },
+    {
+      "pdf_page": 95,
+      "characters": 3370,
+      "chunks": 2
+    },
+    {
+      "pdf_page": 96,
+      "characters": 3574,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 97,
+      "characters": 4035,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 98,
+      "characters": 3677,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 99,
+      "characters": 4586,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 100,
+      "characters": 3800,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 101,
+      "characters": 4221,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 102,
+      "characters": 3005,
+      "chunks": 2
+    },
+    {
+      "pdf_page": 103,
+      "characters": 2212,
+      "chunks": 2
+    },
+    {
+      "pdf_page": 104,
+      "characters": 2719,
+      "chunks": 2
+    },
+    {
+      "pdf_page": 105,
+      "characters": 3407,
+      "chunks": 2
+    },
+    {
+      "pdf_page": 106,
+      "characters": 3983,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 107,
+      "characters": 3651,
+      "chunks": 2
+    },
+    {
+      "pdf_page": 108,
+      "characters": 2836,
+      "chunks": 2
+    },
+    {
+      "pdf_page": 109,
+      "characters": 3775,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 110,
+      "characters": 5174,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 111,
+      "characters": 5503,
+      "chunks": 4
+    },
+    {
+      "pdf_page": 112,
+      "characters": 5810,
+      "chunks": 4
+    },
+    {
+      "pdf_page": 113,
+      "characters": 5802,
+      "chunks": 4
+    },
+    {
+      "pdf_page": 114,
+      "characters": 5905,
+      "chunks": 4
+    },
+    {
+      "pdf_page": 115,
+      "characters": 5278,
+      "chunks": 4
+    },
+    {
+      "pdf_page": 116,
+      "characters": 5924,
+      "chunks": 4
+    },
+    {
+      "pdf_page": 117,
+      "characters": 5307,
+      "chunks": 4
+    },
+    {
+      "pdf_page": 118,
+      "characters": 5138,
+      "chunks": 4
+    },
+    {
+      "pdf_page": 119,
+      "characters": 5565,
+      "chunks": 4
+    },
+    {
+      "pdf_page": 120,
+      "characters": 5424,
+      "chunks": 4
+    },
+    {
+      "pdf_page": 121,
+      "characters": 5378,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 122,
+      "characters": 2778,
+      "chunks": 2
+    },
+    {
+      "pdf_page": 123,
+      "characters": 3535,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 124,
+      "characters": 4179,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 125,
+      "characters": 4189,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 126,
+      "characters": 3409,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 127,
+      "characters": 3535,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 128,
+      "characters": 3197,
+      "chunks": 2
+    },
+    {
+      "pdf_page": 129,
+      "characters": 2872,
+      "chunks": 2
+    },
+    {
+      "pdf_page": 130,
+      "characters": 2559,
+      "chunks": 2
+    },
+    {
+      "pdf_page": 131,
+      "characters": 3849,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 132,
+      "characters": 4237,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 133,
+      "characters": 1035,
+      "chunks": 1
+    },
+    {
+      "pdf_page": 134,
+      "characters": 1570,
+      "chunks": 1
+    },
+    {
+      "pdf_page": 135,
+      "characters": 3512,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 136,
+      "characters": 3188,
+      "chunks": 2
+    },
+    {
+      "pdf_page": 137,
+      "characters": 3609,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 138,
+      "characters": 3577,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 139,
+      "characters": 4231,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 140,
+      "characters": 2560,
+      "chunks": 2
+    },
+    {
+      "pdf_page": 141,
+      "characters": 2015,
+      "chunks": 2
+    },
+    {
+      "pdf_page": 142,
+      "characters": 4035,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 143,
+      "characters": 3518,
+      "chunks": 2
+    },
+    {
+      "pdf_page": 144,
+      "characters": 5286,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 145,
+      "characters": 3789,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 146,
+      "characters": 1892,
+      "chunks": 2
+    },
+    {
+      "pdf_page": 147,
+      "characters": 4171,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 148,
+      "characters": 4154,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 149,
+      "characters": 3706,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 150,
+      "characters": 4900,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 151,
+      "characters": 4191,
+      "chunks": 3
+    },
+    {
+      "pdf_page": 152,
+      "characters": 1769,
+      "chunks": 2
+    },
+    {
+      "pdf_page": 153,
+      "characters": 1303,
+      "chunks": 1
+    },
+    {
+      "pdf_page": 154,
+      "characters": 667,
+      "chunks": 1
+    },
+    {
+      "pdf_page": 155,
+      "characters": 2654,
+      "chunks": 2
+    },
+    {
+      "pdf_page": 156,
+      "characters": 3277,
+      "chunks": 2
+    },
+    {
+      "pdf_page": 157,
+      "characters": 3292,
+      "chunks": 2
+    },
+    {
+      "pdf_page": 158,
+      "characters": 811,
+      "chunks": 1
+    },
+    {
+      "pdf_page": 159,
+      "characters": 826,
+      "chunks": 1
+    },
+    {
+      "pdf_page": 160,
+      "characters": 1246,
+      "chunks": 1
+    }
+  ],
+  "empty_pages": [],
+  "cache_key": "c436d2911fbdd2a27d683009883ef747c341147b769750cf4a4e3a09cb60fd0a",
+  "vector_cache_hit": true,
+  "vector_seconds": 0.00031290000333683565,
+  "setup_seconds": 20.070739599999797,
+  "bm25": {
+    "k1": 1.5,
+    "b": 0.75,
+    "tokens": "lowercase [a-z0-9]+, no stemming"
+  },
+  "rrf_k": 60,
+  "candidates_per_branch": 20,
+  "results": [
+    {
+      "case_id": "financebench_id_03029",
+      "original_query": "What is the FY2018 capital expenditure amount (in USD millions) for 3M? Give a response to the question by relying on the details shown in the cash flow statement.",
+      "effective_query": "What is the 2018 capital expenditures purchases of property, plant and equipment amount (in USD millions) for 3M? cash flow statement.",
+      "source": "FinanceBench",
+      "method": "bm25",
+      "seconds": 0.0013566000052378513,
+      "metrics": {
+        "recall_at_5": 0.0,
+        "recall_at_10": 0.0,
+        "mrr_at_10": 0.0,
+        "marker_hit_at_5": false,
+        "marker_hit_at_10": false
+      },
+      "hits": [
+        {
+          "id": "3M_2018_10K:p49:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 49,
+          "start_char": 0,
+          "end_char": 1953,
+          "score": 38.905073536651905
+        },
+        {
+          "id": "3M_2018_10K:p49:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 49,
+          "start_char": 1639,
+          "end_char": 3256,
+          "score": 36.69933496516287
+        },
+        {
+          "id": "3M_2018_10K:p39:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 39,
+          "start_char": 0,
+          "end_char": 1702,
+          "score": 32.46805659453281
+        },
+        {
+          "id": "3M_2018_10K:p62:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 62,
+          "start_char": 1696,
+          "end_char": 3780,
+          "score": 32.17671045301089
+        },
+        {
+          "id": "3M_2018_10K:p46:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 46,
+          "start_char": 1446,
+          "end_char": 3292,
+          "score": 31.737818806467036
+        },
+        {
+          "id": "3M_2018_10K:p65:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 65,
+          "start_char": 0,
+          "end_char": 2058,
+          "score": 31.67293714125154
+        },
+        {
+          "id": "3M_2018_10K:p62:t640",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 62,
+          "start_char": 3419,
+          "end_char": 5548,
+          "score": 31.289545807976822
+        },
+        {
+          "id": "3M_2018_10K:p47:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 47,
+          "start_char": 0,
+          "end_char": 2042,
+          "score": 30.857263635050433
+        },
+        {
+          "id": "3M_2018_10K:p81:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 81,
+          "start_char": 0,
+          "end_char": 1728,
+          "score": 29.908728250385273
+        },
+        {
+          "id": "3M_2018_10K:p41:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 41,
+          "start_char": 0,
+          "end_char": 1990,
+          "score": 29.612663005666086
+        }
+      ]
+    },
+    {
+      "case_id": "financebench_id_03029",
+      "original_query": "What is the FY2018 capital expenditure amount (in USD millions) for 3M? Give a response to the question by relying on the details shown in the cash flow statement.",
+      "effective_query": "What is the 2018 capital expenditures purchases of property, plant and equipment amount (in USD millions) for 3M? cash flow statement.",
+      "source": "FinanceBench",
+      "method": "dense",
+      "seconds": 0.011247100002947263,
+      "metrics": {
+        "recall_at_5": 1.0,
+        "recall_at_10": 1.0,
+        "mrr_at_10": 0.25,
+        "marker_hit_at_5": true,
+        "marker_hit_at_10": true
+      },
+      "hits": [
+        {
+          "id": "3M_2018_10K:p39:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 39,
+          "start_char": 0,
+          "end_char": 1702,
+          "score": 0.846076488494873
+        },
+        {
+          "id": "3M_2018_10K:p47:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 47,
+          "start_char": 0,
+          "end_char": 2042,
+          "score": 0.8292210698127747
+        },
+        {
+          "id": "3M_2018_10K:p109:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 109,
+          "start_char": 1589,
+          "end_char": 3422,
+          "score": 0.7874657511711121
+        },
+        {
+          "id": "3M_2018_10K:p60:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 60,
+          "start_char": 0,
+          "end_char": 1459,
+          "score": 0.7712602019309998
+        },
+        {
+          "id": "3M_2018_10K:p44:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 44,
+          "start_char": 1427,
+          "end_char": 3369,
+          "score": 0.7709653377532959
+        },
+        {
+          "id": "3M_2018_10K:p26:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 26,
+          "start_char": 0,
+          "end_char": 1733,
+          "score": 0.7692015171051025
+        },
+        {
+          "id": "3M_2018_10K:p58:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 58,
+          "start_char": 0,
+          "end_char": 1350,
+          "score": 0.7656809687614441
+        },
+        {
+          "id": "3M_2018_10K:p43:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 43,
+          "start_char": 0,
+          "end_char": 2006,
+          "score": 0.7635737657546997
+        },
+        {
+          "id": "3M_2018_10K:p83:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 83,
+          "start_char": 1310,
+          "end_char": 2247,
+          "score": 0.7598376274108887
+        },
+        {
+          "id": "3M_2018_10K:p44:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 44,
+          "start_char": 0,
+          "end_char": 1769,
+          "score": 0.7584972977638245
+        }
+      ]
+    },
+    {
+      "case_id": "financebench_id_03029",
+      "original_query": "What is the FY2018 capital expenditure amount (in USD millions) for 3M? Give a response to the question by relying on the details shown in the cash flow statement.",
+      "effective_query": "What is the 2018 capital expenditures purchases of property, plant and equipment amount (in USD millions) for 3M? cash flow statement.",
+      "source": "FinanceBench",
+      "method": "hybrid",
+      "seconds": 0.011084600002504885,
+      "metrics": {
+        "recall_at_5": 1.0,
+        "recall_at_10": 1.0,
+        "mrr_at_10": 0.3333333333333333,
+        "marker_hit_at_5": true,
+        "marker_hit_at_10": true
+      },
+      "hits": [
+        {
+          "id": "3M_2018_10K:p39:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 39,
+          "start_char": 0,
+          "end_char": 1702,
+          "score": 0.032266458495966696
+        },
+        {
+          "id": "3M_2018_10K:p47:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 47,
+          "start_char": 0,
+          "end_char": 2042,
+          "score": 0.030834914611005692
+        },
+        {
+          "id": "3M_2018_10K:p60:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 60,
+          "start_char": 0,
+          "end_char": 1459,
+          "score": 0.029709507042253523
+        },
+        {
+          "id": "3M_2018_10K:p46:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 46,
+          "start_char": 1446,
+          "end_char": 3292,
+          "score": 0.02946912242686891
+        },
+        {
+          "id": "3M_2018_10K:p109:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 109,
+          "start_char": 1589,
+          "end_char": 3422,
+          "score": 0.028531243721117136
+        },
+        {
+          "id": "3M_2018_10K:p43:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 43,
+          "start_char": 0,
+          "end_char": 2006,
+          "score": 0.028404512489927477
+        },
+        {
+          "id": "3M_2018_10K:p83:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 83,
+          "start_char": 1310,
+          "end_char": 2247,
+          "score": 0.026992753623188405
+        },
+        {
+          "id": "3M_2018_10K:p31:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 31,
+          "start_char": 0,
+          "end_char": 1775,
+          "score": 0.0259915611814346
+        },
+        {
+          "id": "3M_2018_10K:p49:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 49,
+          "start_char": 0,
+          "end_char": 1953,
+          "score": 0.01639344262295082
+        },
+        {
+          "id": "3M_2018_10K:p49:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 49,
+          "start_char": 1639,
+          "end_char": 3256,
+          "score": 0.016129032258064516
+        }
+      ]
+    },
+    {
+      "case_id": "financebench_id_04672",
+      "original_query": "Assume that you are a public equities analyst. Answer the following question by primarily using information that is shown in the balance sheet: what is the year end FY2018 net PPNE for 3M? Answer in USD billions.",
+      "effective_query": "balance sheet: what is the year end 2018 net property, plant and equipment for 3M? Answer in USD billions.",
+      "source": "FinanceBench",
+      "method": "bm25",
+      "seconds": 0.0017942000049515627,
+      "metrics": {
+        "recall_at_5": 0.0,
+        "recall_at_10": 0.0,
+        "mrr_at_10": 0.0,
+        "marker_hit_at_5": false,
+        "marker_hit_at_10": false
+      },
+      "hits": [
+        {
+          "id": "3M_2018_10K:p81:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 81,
+          "start_char": 0,
+          "end_char": 1728,
+          "score": 31.014664549049016
+        },
+        {
+          "id": "3M_2018_10K:p62:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 62,
+          "start_char": 1696,
+          "end_char": 3780,
+          "score": 29.710357468390235
+        },
+        {
+          "id": "3M_2018_10K:p76:t640",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 76,
+          "start_char": 3080,
+          "end_char": 4240,
+          "score": 28.270679542484125
+        },
+        {
+          "id": "3M_2018_10K:p39:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 39,
+          "start_char": 0,
+          "end_char": 1702,
+          "score": 25.40375814358476
+        },
+        {
+          "id": "3M_2018_10K:p62:t640",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 62,
+          "start_char": 3419,
+          "end_char": 5548,
+          "score": 24.33371951761437
+        },
+        {
+          "id": "3M_2018_10K:p63:t640",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 63,
+          "start_char": 3395,
+          "end_char": 5561,
+          "score": 23.463824578764818
+        },
+        {
+          "id": "3M_2018_10K:p31:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 31,
+          "start_char": 0,
+          "end_char": 1775,
+          "score": 23.455631364591568
+        },
+        {
+          "id": "3M_2018_10K:p49:t640",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 49,
+          "start_char": 3107,
+          "end_char": 4242,
+          "score": 23.256762375086424
+        },
+        {
+          "id": "3M_2018_10K:p127:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 127,
+          "start_char": 0,
+          "end_char": 1326,
+          "score": 22.985508387028034
+        },
+        {
+          "id": "3M_2018_10K:p105:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 105,
+          "start_char": 1710,
+          "end_char": 3407,
+          "score": 22.57330215719057
+        }
+      ]
+    },
+    {
+      "case_id": "financebench_id_04672",
+      "original_query": "Assume that you are a public equities analyst. Answer the following question by primarily using information that is shown in the balance sheet: what is the year end FY2018 net PPNE for 3M? Answer in USD billions.",
+      "effective_query": "balance sheet: what is the year end 2018 net property, plant and equipment for 3M? Answer in USD billions.",
+      "source": "FinanceBench",
+      "method": "dense",
+      "seconds": 0.008103200001642108,
+      "metrics": {
+        "recall_at_5": 1.0,
+        "recall_at_10": 1.0,
+        "mrr_at_10": 0.2,
+        "marker_hit_at_5": true,
+        "marker_hit_at_10": true
+      },
+      "hits": [
+        {
+          "id": "3M_2018_10K:p39:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 39,
+          "start_char": 0,
+          "end_char": 1702,
+          "score": 0.809025228023529
+        },
+        {
+          "id": "3M_2018_10K:p47:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 47,
+          "start_char": 0,
+          "end_char": 2042,
+          "score": 0.7989419102668762
+        },
+        {
+          "id": "3M_2018_10K:p44:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 44,
+          "start_char": 1427,
+          "end_char": 3369,
+          "score": 0.7596815824508667
+        },
+        {
+          "id": "3M_2018_10K:p109:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 109,
+          "start_char": 1589,
+          "end_char": 3422,
+          "score": 0.7573497891426086
+        },
+        {
+          "id": "3M_2018_10K:p58:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 58,
+          "start_char": 0,
+          "end_char": 1350,
+          "score": 0.7570343017578125
+        },
+        {
+          "id": "3M_2018_10K:p43:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 43,
+          "start_char": 1678,
+          "end_char": 3554,
+          "score": 0.7500107288360596
+        },
+        {
+          "id": "3M_2018_10K:p89:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 89,
+          "start_char": 1267,
+          "end_char": 3039,
+          "score": 0.747456431388855
+        },
+        {
+          "id": "3M_2018_10K:p44:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 44,
+          "start_char": 0,
+          "end_char": 1769,
+          "score": 0.7468819618225098
+        },
+        {
+          "id": "3M_2018_10K:p127:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 127,
+          "start_char": 0,
+          "end_char": 1326,
+          "score": 0.7426853775978088
+        },
+        {
+          "id": "3M_2018_10K:p14:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 14,
+          "start_char": 0,
+          "end_char": 1340,
+          "score": 0.7424770593643188
+        }
+      ]
+    },
+    {
+      "case_id": "financebench_id_04672",
+      "original_query": "Assume that you are a public equities analyst. Answer the following question by primarily using information that is shown in the balance sheet: what is the year end FY2018 net PPNE for 3M? Answer in USD billions.",
+      "effective_query": "balance sheet: what is the year end 2018 net property, plant and equipment for 3M? Answer in USD billions.",
+      "source": "FinanceBench",
+      "method": "hybrid",
+      "seconds": 0.009929399995598942,
+      "metrics": {
+        "recall_at_5": 0.0,
+        "recall_at_10": 1.0,
+        "mrr_at_10": 0.1,
+        "marker_hit_at_5": false,
+        "marker_hit_at_10": true
+      },
+      "hits": [
+        {
+          "id": "3M_2018_10K:p39:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 39,
+          "start_char": 0,
+          "end_char": 1702,
+          "score": 0.032018442622950824
+        },
+        {
+          "id": "3M_2018_10K:p81:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 81,
+          "start_char": 0,
+          "end_char": 1728,
+          "score": 0.029906956136464335
+        },
+        {
+          "id": "3M_2018_10K:p127:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 127,
+          "start_char": 0,
+          "end_char": 1326,
+          "score": 0.028985507246376812
+        },
+        {
+          "id": "3M_2018_10K:p47:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 47,
+          "start_char": 0,
+          "end_char": 2042,
+          "score": 0.02878726010616578
+        },
+        {
+          "id": "3M_2018_10K:p31:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 31,
+          "start_char": 0,
+          "end_char": 1775,
+          "score": 0.02862400327131466
+        },
+        {
+          "id": "3M_2018_10K:p62:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 62,
+          "start_char": 1696,
+          "end_char": 3780,
+          "score": 0.016129032258064516
+        },
+        {
+          "id": "3M_2018_10K:p44:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 44,
+          "start_char": 1427,
+          "end_char": 3369,
+          "score": 0.015873015873015872
+        },
+        {
+          "id": "3M_2018_10K:p76:t640",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 76,
+          "start_char": 3080,
+          "end_char": 4240,
+          "score": 0.015873015873015872
+        },
+        {
+          "id": "3M_2018_10K:p109:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 109,
+          "start_char": 1589,
+          "end_char": 3422,
+          "score": 0.015625
+        },
+        {
+          "id": "3M_2018_10K:p58:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 58,
+          "start_char": 0,
+          "end_char": 1350,
+          "score": 0.015384615384615385
+        }
+      ]
+    },
+    {
+      "case_id": "dev_revenue_2018",
+      "original_query": "What was 3M's FY2018 revenue in USD millions?",
+      "effective_query": "What was 3M's 2018 revenue net sales in USD millions?",
+      "source": "authored",
+      "method": "bm25",
+      "seconds": 0.0013853000054950826,
+      "metrics": {
+        "recall_at_5": 0.0,
+        "recall_at_10": 0.0,
+        "mrr_at_10": 0.0,
+        "marker_hit_at_5": false,
+        "marker_hit_at_10": false
+      },
+      "hits": [
+        {
+          "id": "3M_2018_10K:p68:t640",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 68,
+          "start_char": 3145,
+          "end_char": 4966,
+          "score": 17.807120380440484
+        },
+        {
+          "id": "3M_2018_10K:p88:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 88,
+          "start_char": 0,
+          "end_char": 1543,
+          "score": 16.25923863538577
+        },
+        {
+          "id": "3M_2018_10K:p14:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 14,
+          "start_char": 0,
+          "end_char": 1340,
+          "score": 14.766176614630528
+        },
+        {
+          "id": "3M_2018_10K:p72:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 72,
+          "start_char": 0,
+          "end_char": 1795,
+          "score": 14.64840136526972
+        },
+        {
+          "id": "3M_2018_10K:p64:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 64,
+          "start_char": 1815,
+          "end_char": 3813,
+          "score": 14.609217841086098
+        },
+        {
+          "id": "3M_2018_10K:p64:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 64,
+          "start_char": 0,
+          "end_char": 2149,
+          "score": 14.481059008375059
+        },
+        {
+          "id": "3M_2018_10K:p33:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 33,
+          "start_char": 1653,
+          "end_char": 3138,
+          "score": 14.276316261642595
+        },
+        {
+          "id": "3M_2018_10K:p76:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 76,
+          "start_char": 1508,
+          "end_char": 3375,
+          "score": 13.679074848187282
+        },
+        {
+          "id": "3M_2018_10K:p67:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 67,
+          "start_char": 0,
+          "end_char": 2050,
+          "score": 13.556819109173158
+        },
+        {
+          "id": "3M_2018_10K:p52:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 52,
+          "start_char": 0,
+          "end_char": 1954,
+          "score": 13.334612454556353
+        }
+      ]
+    },
+    {
+      "case_id": "dev_revenue_2018",
+      "original_query": "What was 3M's FY2018 revenue in USD millions?",
+      "effective_query": "What was 3M's 2018 revenue net sales in USD millions?",
+      "source": "authored",
+      "method": "dense",
+      "seconds": 0.005856000003404915,
+      "metrics": {
+        "recall_at_5": 0.0,
+        "recall_at_10": 0.0,
+        "mrr_at_10": 0.0,
+        "marker_hit_at_5": false,
+        "marker_hit_at_10": false
+      },
+      "hits": [
+        {
+          "id": "3M_2018_10K:p33:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 33,
+          "start_char": 1653,
+          "end_char": 3138,
+          "score": 0.7446004152297974
+        },
+        {
+          "id": "3M_2018_10K:p75:t640",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 75,
+          "start_char": 3367,
+          "end_char": 5087,
+          "score": 0.7360979318618774
+        },
+        {
+          "id": "3M_2018_10K:p37:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 37,
+          "start_char": 0,
+          "end_char": 1919,
+          "score": 0.727982759475708
+        },
+        {
+          "id": "3M_2018_10K:p75:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 75,
+          "start_char": 1706,
+          "end_char": 3674,
+          "score": 0.722925066947937
+        },
+        {
+          "id": "3M_2018_10K:p26:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 26,
+          "start_char": 0,
+          "end_char": 1733,
+          "score": 0.7195321321487427
+        },
+        {
+          "id": "3M_2018_10K:p37:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 37,
+          "start_char": 1628,
+          "end_char": 2978,
+          "score": 0.7172987461090088
+        },
+        {
+          "id": "3M_2018_10K:p43:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 43,
+          "start_char": 1678,
+          "end_char": 3554,
+          "score": 0.7028089761734009
+        },
+        {
+          "id": "3M_2018_10K:p73:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 73,
+          "start_char": 929,
+          "end_char": 2246,
+          "score": 0.6950254440307617
+        },
+        {
+          "id": "3M_2018_10K:p32:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 32,
+          "start_char": 0,
+          "end_char": 2308,
+          "score": 0.6942471265792847
+        },
+        {
+          "id": "3M_2018_10K:p47:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 47,
+          "start_char": 0,
+          "end_char": 2042,
+          "score": 0.6896867752075195
+        }
+      ]
+    },
+    {
+      "case_id": "dev_revenue_2018",
+      "original_query": "What was 3M's FY2018 revenue in USD millions?",
+      "effective_query": "What was 3M's 2018 revenue net sales in USD millions?",
+      "source": "authored",
+      "method": "hybrid",
+      "seconds": 0.007138399996620137,
+      "metrics": {
+        "recall_at_5": 0.0,
+        "recall_at_10": 0.0,
+        "mrr_at_10": 0.0,
+        "marker_hit_at_5": false,
+        "marker_hit_at_10": false
+      },
+      "hits": [
+        {
+          "id": "3M_2018_10K:p33:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 33,
+          "start_char": 1653,
+          "end_char": 3138,
+          "score": 0.03131881575727918
+        },
+        {
+          "id": "3M_2018_10K:p75:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 75,
+          "start_char": 1706,
+          "end_char": 3674,
+          "score": 0.028958333333333336
+        },
+        {
+          "id": "3M_2018_10K:p14:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 14,
+          "start_char": 0,
+          "end_char": 1340,
+          "score": 0.028373015873015873
+        },
+        {
+          "id": "3M_2018_10K:p37:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 37,
+          "start_char": 0,
+          "end_char": 1919,
+          "score": 0.028373015873015873
+        },
+        {
+          "id": "3M_2018_10K:p36:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 36,
+          "start_char": 0,
+          "end_char": 1850,
+          "score": 0.025478740668614087
+        },
+        {
+          "id": "3M_2018_10K:p68:t640",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 68,
+          "start_char": 3145,
+          "end_char": 4966,
+          "score": 0.01639344262295082
+        },
+        {
+          "id": "3M_2018_10K:p75:t640",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 75,
+          "start_char": 3367,
+          "end_char": 5087,
+          "score": 0.016129032258064516
+        },
+        {
+          "id": "3M_2018_10K:p88:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 88,
+          "start_char": 0,
+          "end_char": 1543,
+          "score": 0.016129032258064516
+        },
+        {
+          "id": "3M_2018_10K:p72:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 72,
+          "start_char": 0,
+          "end_char": 1795,
+          "score": 0.015625
+        },
+        {
+          "id": "3M_2018_10K:p26:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 26,
+          "start_char": 0,
+          "end_char": 1733,
+          "score": 0.015384615384615385
+        }
+      ]
+    },
+    {
+      "case_id": "dev_dividends_2018",
+      "original_query": "How much did 3M pay in dividends to shareholders in FY2018?",
+      "effective_query": "How much did 3M pay in dividends to shareholders in 2018?",
+      "source": "authored",
+      "method": "bm25",
+      "seconds": 0.0011594000025070272,
+      "metrics": {
+        "recall_at_5": 0.0,
+        "recall_at_10": 0.0,
+        "mrr_at_10": 0.0,
+        "marker_hit_at_5": false,
+        "marker_hit_at_10": false
+      },
+      "hits": [
+        {
+          "id": "3M_2018_10K:p48:t640",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 48,
+          "start_char": 2976,
+          "end_char": 4501,
+          "score": 19.80817085048451
+        },
+        {
+          "id": "3M_2018_10K:p82:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 82,
+          "start_char": 0,
+          "end_char": 1640,
+          "score": 17.622565490211482
+        },
+        {
+          "id": "3M_2018_10K:p14:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 14,
+          "start_char": 1032,
+          "end_char": 1439,
+          "score": 16.366659744581757
+        },
+        {
+          "id": "3M_2018_10K:p43:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 43,
+          "start_char": 0,
+          "end_char": 2006,
+          "score": 16.34679313989423
+        },
+        {
+          "id": "3M_2018_10K:p61:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 61,
+          "start_char": 1794,
+          "end_char": 3758,
+          "score": 16.10406537391129
+        },
+        {
+          "id": "3M_2018_10K:p14:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 14,
+          "start_char": 0,
+          "end_char": 1340,
+          "score": 15.668517182644884
+        },
+        {
+          "id": "3M_2018_10K:p99:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 99,
+          "start_char": 1797,
+          "end_char": 3943,
+          "score": 15.221459635775316
+        },
+        {
+          "id": "3M_2018_10K:p13:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 13,
+          "start_char": 0,
+          "end_char": 1737,
+          "score": 15.097632408704253
+        },
+        {
+          "id": "3M_2018_10K:p111:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 111,
+          "start_char": 0,
+          "end_char": 2060,
+          "score": 15.061338192817702
+        },
+        {
+          "id": "3M_2018_10K:p109:t640",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 109,
+          "start_char": 3122,
+          "end_char": 3775,
+          "score": 14.578738488784182
+        }
+      ]
+    },
+    {
+      "case_id": "dev_dividends_2018",
+      "original_query": "How much did 3M pay in dividends to shareholders in FY2018?",
+      "effective_query": "How much did 3M pay in dividends to shareholders in 2018?",
+      "source": "authored",
+      "method": "dense",
+      "seconds": 0.005324400000972673,
+      "metrics": {
+        "recall_at_5": 0.0,
+        "recall_at_10": 0.0,
+        "mrr_at_10": 0.0,
+        "marker_hit_at_5": false,
+        "marker_hit_at_10": false
+      },
+      "hits": [
+        {
+          "id": "3M_2018_10K:p48:t960",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 48,
+          "start_char": 4293,
+          "end_char": 4647,
+          "score": 0.8634315133094788
+        },
+        {
+          "id": "3M_2018_10K:p48:t640",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 48,
+          "start_char": 2976,
+          "end_char": 4501,
+          "score": 0.8454005718231201
+        },
+        {
+          "id": "3M_2018_10K:p14:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 14,
+          "start_char": 1032,
+          "end_char": 1439,
+          "score": 0.829196572303772
+        },
+        {
+          "id": "3M_2018_10K:p13:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 13,
+          "start_char": 0,
+          "end_char": 1737,
+          "score": 0.8171620965003967
+        },
+        {
+          "id": "3M_2018_10K:p82:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 82,
+          "start_char": 0,
+          "end_char": 1640,
+          "score": 0.8116718530654907
+        },
+        {
+          "id": "3M_2018_10K:p14:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 14,
+          "start_char": 0,
+          "end_char": 1340,
+          "score": 0.7991737127304077
+        },
+        {
+          "id": "3M_2018_10K:p26:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 26,
+          "start_char": 0,
+          "end_char": 1733,
+          "score": 0.7945771217346191
+        },
+        {
+          "id": "3M_2018_10K:p19:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 19,
+          "start_char": 1516,
+          "end_char": 3461,
+          "score": 0.7835556268692017
+        },
+        {
+          "id": "3M_2018_10K:p43:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 43,
+          "start_char": 1678,
+          "end_char": 3554,
+          "score": 0.7828899621963501
+        },
+        {
+          "id": "3M_2018_10K:p59:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 59,
+          "start_char": 0,
+          "end_char": 1393,
+          "score": 0.7662957906723022
+        }
+      ]
+    },
+    {
+      "case_id": "dev_dividends_2018",
+      "original_query": "How much did 3M pay in dividends to shareholders in FY2018?",
+      "effective_query": "How much did 3M pay in dividends to shareholders in 2018?",
+      "source": "authored",
+      "method": "hybrid",
+      "seconds": 0.007160699999076314,
+      "metrics": {
+        "recall_at_5": 0.0,
+        "recall_at_10": 0.0,
+        "mrr_at_10": 0.0,
+        "marker_hit_at_5": false,
+        "marker_hit_at_10": false
+      },
+      "hits": [
+        {
+          "id": "3M_2018_10K:p48:t640",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 48,
+          "start_char": 2976,
+          "end_char": 4501,
+          "score": 0.03252247488101534
+        },
+        {
+          "id": "3M_2018_10K:p14:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 14,
+          "start_char": 1032,
+          "end_char": 1439,
+          "score": 0.031746031746031744
+        },
+        {
+          "id": "3M_2018_10K:p82:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 82,
+          "start_char": 0,
+          "end_char": 1640,
+          "score": 0.0315136476426799
+        },
+        {
+          "id": "3M_2018_10K:p13:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 13,
+          "start_char": 0,
+          "end_char": 1737,
+          "score": 0.030330882352941176
+        },
+        {
+          "id": "3M_2018_10K:p14:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 14,
+          "start_char": 0,
+          "end_char": 1340,
+          "score": 0.030303030303030304
+        },
+        {
+          "id": "3M_2018_10K:p43:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 43,
+          "start_char": 0,
+          "end_char": 2006,
+          "score": 0.02844551282051282
+        },
+        {
+          "id": "3M_2018_10K:p59:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 59,
+          "start_char": 0,
+          "end_char": 1393,
+          "score": 0.027799227799227798
+        },
+        {
+          "id": "3M_2018_10K:p75:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 75,
+          "start_char": 1706,
+          "end_char": 3674,
+          "score": 0.027046783625730993
+        },
+        {
+          "id": "3M_2018_10K:p48:t960",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 48,
+          "start_char": 4293,
+          "end_char": 4647,
+          "score": 0.01639344262295082
+        },
+        {
+          "id": "3M_2018_10K:p61:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 61,
+          "start_char": 1794,
+          "end_char": 3758,
+          "score": 0.015384615384615385
+        }
+      ]
+    },
+    {
+      "case_id": "dev_income_2018",
+      "original_query": "What was net income attributable to 3M in FY2018?",
+      "effective_query": "What was net income attributable to 3M in 2018?",
+      "source": "authored",
+      "method": "bm25",
+      "seconds": 0.0012587999954121187,
+      "metrics": {
+        "recall_at_5": 0.0,
+        "recall_at_10": 0.0,
+        "mrr_at_10": 0.0,
+        "marker_hit_at_5": false,
+        "marker_hit_at_10": false
+      },
+      "hits": [
+        {
+          "id": "3M_2018_10K:p16:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 16,
+          "start_char": 0,
+          "end_char": 1512,
+          "score": 15.704097597189532
+        },
+        {
+          "id": "3M_2018_10K:p14:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 14,
+          "start_char": 0,
+          "end_char": 1340,
+          "score": 15.141208532216517
+        },
+        {
+          "id": "3M_2018_10K:p31:t640",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 31,
+          "start_char": 2855,
+          "end_char": 4433,
+          "score": 15.060701752588399
+        },
+        {
+          "id": "3M_2018_10K:p127:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 127,
+          "start_char": 1162,
+          "end_char": 2367,
+          "score": 14.01127755587825
+        },
+        {
+          "id": "3M_2018_10K:p52:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 52,
+          "start_char": 0,
+          "end_char": 1954,
+          "score": 13.522505176660431
+        },
+        {
+          "id": "3M_2018_10K:p76:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 76,
+          "start_char": 1508,
+          "end_char": 3375,
+          "score": 13.360676583483077
+        },
+        {
+          "id": "3M_2018_10K:p68:t960",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 68,
+          "start_char": 4701,
+          "end_char": 6235,
+          "score": 13.167108850348434
+        },
+        {
+          "id": "3M_2018_10K:p82:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 82,
+          "start_char": 0,
+          "end_char": 1640,
+          "score": 13.062104187576283
+        },
+        {
+          "id": "3M_2018_10K:p67:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 67,
+          "start_char": 1714,
+          "end_char": 3707,
+          "score": 13.021267320855795
+        },
+        {
+          "id": "3M_2018_10K:p65:t640",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 65,
+          "start_char": 3455,
+          "end_char": 4823,
+          "score": 12.97454305763681
+        }
+      ]
+    },
+    {
+      "case_id": "dev_income_2018",
+      "original_query": "What was net income attributable to 3M in FY2018?",
+      "effective_query": "What was net income attributable to 3M in 2018?",
+      "source": "authored",
+      "method": "dense",
+      "seconds": 0.0063808999984757975,
+      "metrics": {
+        "recall_at_5": 0.0,
+        "recall_at_10": 0.0,
+        "mrr_at_10": 0.0,
+        "marker_hit_at_5": false,
+        "marker_hit_at_10": false
+      },
+      "hits": [
+        {
+          "id": "3M_2018_10K:p31:t640",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 31,
+          "start_char": 2855,
+          "end_char": 4433,
+          "score": 0.7710024118423462
+        },
+        {
+          "id": "3M_2018_10K:p16:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 16,
+          "start_char": 0,
+          "end_char": 1512,
+          "score": 0.763766884803772
+        },
+        {
+          "id": "3M_2018_10K:p14:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 14,
+          "start_char": 0,
+          "end_char": 1340,
+          "score": 0.7629759311676025
+        },
+        {
+          "id": "3M_2018_10K:p16:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 16,
+          "start_char": 1273,
+          "end_char": 3156,
+          "score": 0.7505650520324707
+        },
+        {
+          "id": "3M_2018_10K:p57:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 57,
+          "start_char": 0,
+          "end_char": 852,
+          "score": 0.7479277849197388
+        },
+        {
+          "id": "3M_2018_10K:p43:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 43,
+          "start_char": 1678,
+          "end_char": 3554,
+          "score": 0.7476639747619629
+        },
+        {
+          "id": "3M_2018_10K:p19:t640",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 19,
+          "start_char": 3128,
+          "end_char": 4993,
+          "score": 0.7449190616607666
+        },
+        {
+          "id": "3M_2018_10K:p19:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 19,
+          "start_char": 1516,
+          "end_char": 3461,
+          "score": 0.7446655035018921
+        },
+        {
+          "id": "3M_2018_10K:p31:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 31,
+          "start_char": 1488,
+          "end_char": 3187,
+          "score": 0.7366511821746826
+        },
+        {
+          "id": "3M_2018_10K:p17:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 17,
+          "start_char": 0,
+          "end_char": 1869,
+          "score": 0.7352986335754395
+        }
+      ]
+    },
+    {
+      "case_id": "dev_income_2018",
+      "original_query": "What was net income attributable to 3M in FY2018?",
+      "effective_query": "What was net income attributable to 3M in 2018?",
+      "source": "authored",
+      "method": "hybrid",
+      "seconds": 0.006947000001673587,
+      "metrics": {
+        "recall_at_5": 0.0,
+        "recall_at_10": 0.0,
+        "mrr_at_10": 0.0,
+        "marker_hit_at_5": false,
+        "marker_hit_at_10": false
+      },
+      "hits": [
+        {
+          "id": "3M_2018_10K:p16:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 16,
+          "start_char": 0,
+          "end_char": 1512,
+          "score": 0.03252247488101534
+        },
+        {
+          "id": "3M_2018_10K:p31:t640",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 31,
+          "start_char": 2855,
+          "end_char": 4433,
+          "score": 0.032266458495966696
+        },
+        {
+          "id": "3M_2018_10K:p14:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 14,
+          "start_char": 0,
+          "end_char": 1340,
+          "score": 0.03200204813108039
+        },
+        {
+          "id": "3M_2018_10K:p127:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 127,
+          "start_char": 1162,
+          "end_char": 2367,
+          "score": 0.029709507042253523
+        },
+        {
+          "id": "3M_2018_10K:p57:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 57,
+          "start_char": 0,
+          "end_char": 852,
+          "score": 0.028371628371628373
+        },
+        {
+          "id": "3M_2018_10K:p31:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 31,
+          "start_char": 0,
+          "end_char": 1775,
+          "score": 0.026171741361614778
+        },
+        {
+          "id": "3M_2018_10K:p16:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 16,
+          "start_char": 1273,
+          "end_char": 3156,
+          "score": 0.015625
+        },
+        {
+          "id": "3M_2018_10K:p52:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 52,
+          "start_char": 0,
+          "end_char": 1954,
+          "score": 0.015384615384615385
+        },
+        {
+          "id": "3M_2018_10K:p43:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 43,
+          "start_char": 1678,
+          "end_char": 3554,
+          "score": 0.015151515151515152
+        },
+        {
+          "id": "3M_2018_10K:p76:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 76,
+          "start_char": 1508,
+          "end_char": 3375,
+          "score": 0.015151515151515152
+        }
+      ]
+    },
+    {
+      "case_id": "dev_assets_2018",
+      "original_query": "What were 3M's total assets at December 31, 2018?",
+      "effective_query": "What were 3M's total assets at December 31, 2018?",
+      "source": "authored",
+      "method": "bm25",
+      "seconds": 0.0011297000019112602,
+      "metrics": {
+        "recall_at_5": 0.0,
+        "recall_at_10": 0.0,
+        "mrr_at_10": 0.0,
+        "marker_hit_at_5": false,
+        "marker_hit_at_10": false
+      },
+      "hits": [
+        {
+          "id": "3M_2018_10K:p61:t640",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 61,
+          "start_char": 3393,
+          "end_char": 5270,
+          "score": 12.544734763112528
+        },
+        {
+          "id": "3M_2018_10K:p52:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 52,
+          "start_char": 0,
+          "end_char": 1954,
+          "score": 11.866301737496842
+        },
+        {
+          "id": "3M_2018_10K:p43:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 43,
+          "start_char": 1678,
+          "end_char": 3554,
+          "score": 11.739380002781397
+        },
+        {
+          "id": "3M_2018_10K:p124:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 124,
+          "start_char": 1418,
+          "end_char": 3289,
+          "score": 10.935461155171973
+        },
+        {
+          "id": "3M_2018_10K:p87:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 87,
+          "start_char": 1499,
+          "end_char": 2608,
+          "score": 10.904134709383078
+        },
+        {
+          "id": "3M_2018_10K:p109:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 109,
+          "start_char": 1589,
+          "end_char": 3422,
+          "score": 10.888422009193324
+        },
+        {
+          "id": "3M_2018_10K:p37:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 37,
+          "start_char": 0,
+          "end_char": 1919,
+          "score": 10.627464849556173
+        },
+        {
+          "id": "3M_2018_10K:p44:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 44,
+          "start_char": 0,
+          "end_char": 1769,
+          "score": 10.230010634775791
+        },
+        {
+          "id": "3M_2018_10K:p13:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 13,
+          "start_char": 0,
+          "end_char": 1737,
+          "score": 10.123155372031825
+        },
+        {
+          "id": "3M_2018_10K:p104:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 104,
+          "start_char": 0,
+          "end_char": 2026,
+          "score": 10.080770434630681
+        }
+      ]
+    },
+    {
+      "case_id": "dev_assets_2018",
+      "original_query": "What were 3M's total assets at December 31, 2018?",
+      "effective_query": "What were 3M's total assets at December 31, 2018?",
+      "source": "authored",
+      "method": "dense",
+      "seconds": 0.005672500003129244,
+      "metrics": {
+        "recall_at_5": 1.0,
+        "recall_at_10": 1.0,
+        "mrr_at_10": 1.0,
+        "marker_hit_at_5": true,
+        "marker_hit_at_10": true
+      },
+      "hits": [
+        {
+          "id": "3M_2018_10K:p58:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 58,
+          "start_char": 0,
+          "end_char": 1350,
+          "score": 0.7854518294334412
+        },
+        {
+          "id": "3M_2018_10K:p47:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 47,
+          "start_char": 0,
+          "end_char": 2042,
+          "score": 0.7512956857681274
+        },
+        {
+          "id": "3M_2018_10K:p43:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 43,
+          "start_char": 1678,
+          "end_char": 3554,
+          "score": 0.74981689453125
+        },
+        {
+          "id": "3M_2018_10K:p59:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 59,
+          "start_char": 0,
+          "end_char": 1393,
+          "score": 0.7490149736404419
+        },
+        {
+          "id": "3M_2018_10K:p19:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 19,
+          "start_char": 1516,
+          "end_char": 3461,
+          "score": 0.7394922971725464
+        },
+        {
+          "id": "3M_2018_10K:p39:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 39,
+          "start_char": 0,
+          "end_char": 1702,
+          "score": 0.7363474369049072
+        },
+        {
+          "id": "3M_2018_10K:p26:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 26,
+          "start_char": 0,
+          "end_char": 1733,
+          "score": 0.7353463172912598
+        },
+        {
+          "id": "3M_2018_10K:p48:t960",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 48,
+          "start_char": 4293,
+          "end_char": 4647,
+          "score": 0.7324490547180176
+        },
+        {
+          "id": "3M_2018_10K:p48:t640",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 48,
+          "start_char": 2976,
+          "end_char": 4501,
+          "score": 0.7324275970458984
+        },
+        {
+          "id": "3M_2018_10K:p14:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 14,
+          "start_char": 0,
+          "end_char": 1340,
+          "score": 0.7297600507736206
+        }
+      ]
+    },
+    {
+      "case_id": "dev_assets_2018",
+      "original_query": "What were 3M's total assets at December 31, 2018?",
+      "effective_query": "What were 3M's total assets at December 31, 2018?",
+      "source": "authored",
+      "method": "hybrid",
+      "seconds": 0.00699470000108704,
+      "metrics": {
+        "recall_at_5": 0.0,
+        "recall_at_10": 1.0,
+        "mrr_at_10": 0.14285714285714285,
+        "marker_hit_at_5": false,
+        "marker_hit_at_10": true
+      },
+      "hits": [
+        {
+          "id": "3M_2018_10K:p43:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 43,
+          "start_char": 1678,
+          "end_char": 3554,
+          "score": 0.031746031746031744
+        },
+        {
+          "id": "3M_2018_10K:p44:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 44,
+          "start_char": 0,
+          "end_char": 1769,
+          "score": 0.028790389395194696
+        },
+        {
+          "id": "3M_2018_10K:p109:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 109,
+          "start_char": 1589,
+          "end_char": 3422,
+          "score": 0.02813852813852814
+        },
+        {
+          "id": "3M_2018_10K:p14:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 14,
+          "start_char": 0,
+          "end_char": 1340,
+          "score": 0.027443609022556388
+        },
+        {
+          "id": "3M_2018_10K:p26:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 26,
+          "start_char": 1418,
+          "end_char": 3476,
+          "score": 0.02690501986276634
+        },
+        {
+          "id": "3M_2018_10K:p44:t320",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 44,
+          "start_char": 1427,
+          "end_char": 3369,
+          "score": 0.02651914295749912
+        },
+        {
+          "id": "3M_2018_10K:p58:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 58,
+          "start_char": 0,
+          "end_char": 1350,
+          "score": 0.01639344262295082
+        },
+        {
+          "id": "3M_2018_10K:p61:t640",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 61,
+          "start_char": 3393,
+          "end_char": 5270,
+          "score": 0.01639344262295082
+        },
+        {
+          "id": "3M_2018_10K:p47:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 47,
+          "start_char": 0,
+          "end_char": 2042,
+          "score": 0.016129032258064516
+        },
+        {
+          "id": "3M_2018_10K:p52:t0",
+          "document_id": "3M_2018_10K",
+          "pdf_page": 52,
+          "start_char": 0,
+          "end_char": 1954,
+          "score": 0.016129032258064516
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "bm25": {
+      "questions": 6,
+      "recall_at_5": 0.0,
+      "recall_at_10": 0.0,
+      "mrr_at_10": 0.0,
+      "marker_hit_at_5": 0.0,
+      "marker_hit_at_10": 0.0,
+      "p50_seconds": 0.001307700000324985,
+      "p95_seconds": 0.0016919750050874427
+    },
+    "dense": {
+      "questions": 6,
+      "recall_at_5": 0.5,
+      "recall_at_10": 0.5,
+      "mrr_at_10": 0.24166666666666667,
+      "marker_hit_at_5": 0.5,
+      "marker_hit_at_10": 0.5,
+      "p50_seconds": 0.006118450000940356,
+      "p95_seconds": 0.010461125002620975
+    },
+    "hybrid": {
+      "questions": 6,
+      "recall_at_5": 0.16666666666666666,
+      "recall_at_10": 0.5,
+      "mrr_at_10": 0.09603174603174602,
+      "marker_hit_at_5": 0.16666666666666666,
+      "marker_hit_at_10": 0.5,
+      "p50_seconds": 0.007149549997848226,
+      "p95_seconds": 0.0107958000007784
+    }
+  }
+}

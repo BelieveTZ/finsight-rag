@@ -1,0 +1,43 @@
+{
+  "version": "demo-v1",
+  "scope": "Six exposed development demonstrations, not held-out benchmark results",
+  "selection_note": "Chosen before report-fact model runs to cover two numeric facts, one business fact, one supply-chain risk, one out-of-period refusal and one in-scope undisclosed customer metric. All documents belong to development. No model outputs informed selection.",
+  "cases": [
+    {
+      "id": "demo_3m_capex", "document_id": "3M_2018_10K", "answer_kind": "numeric",
+      "question": "What were 3M's FY2018 capital expenditures in USD millions?",
+      "expected_status": "answered", "value": 1577, "unit": "USD millions",
+      "evidence_pages": [60], "review": "Cash-flow statement, purchases of PP&E, 2018 column; report spending magnitude."
+    },
+    {
+      "id": "demo_pepsi_cash_flow", "document_id": "PEPSICO_2022_10K", "answer_kind": "numeric",
+      "question": "What was PepsiCo's net cash provided by operating activities in FY2022, in USD millions?",
+      "expected_status": "answered", "value": 10811, "unit": "USD millions",
+      "evidence_pages": [64], "review": "Operating cash flow, fiscal 2022 column, not investing or financing cash flow."
+    },
+    {
+      "id": "demo_pepsi_business", "document_id": "PEPSICO_2022_10K", "answer_kind": "fact",
+      "question": "According to PepsiCo's FY2022 report, what kinds of products does Frito-Lay North America sell?",
+      "expected_status": "answered", "evidence_pages": [5],
+      "review": "Quote must identify FLNA branded convenient foods, such as dips and snack chips, rather than another division's beverages. Inspect the original page and local section heading. A valid alternative page needs an explicit review note."
+    },
+    {
+      "id": "demo_pepsi_risk", "document_id": "PEPSICO_2022_10K", "answer_kind": "fact",
+      "question": "What supply-chain risk involving limited suppliers does PepsiCo describe in its FY2022 report?",
+      "expected_status": "answered", "evidence_pages": [17],
+      "review": "Quote must directly discuss some materials having limited or sole suppliers and resulting supply-disruption risk. Check relevance, not just whether a verbatim string exists."
+    },
+    {
+      "id": "demo_missing_year", "document_id": "3M_2018_10K", "answer_kind": "numeric",
+      "question": "What was 3M's FY2024 revenue in USD millions?",
+      "expected_status": "insufficient_evidence", "evidence_pages": [],
+      "review": "2018 report cannot disclose actual FY2024 revenue. Explicitly label programmatic scope refusal."
+    },
+    {
+      "id": "demo_undisclosed_customer", "document_id": "PEPSICO_2022_10K", "answer_kind": "numeric",
+      "question": "How much revenue did PepsiCo receive specifically from Microsoft in FY2022? Answer in USD millions.",
+      "expected_status": "insufficient_evidence", "evidence_pages": [],
+      "review": "The full report does not separately disclose this customer-level figure; do not substitute total revenue or infer zero business. Prior full-text source review is recorded in CORPUS.md."
+    }
+  ]
+}

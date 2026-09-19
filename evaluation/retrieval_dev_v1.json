@@ -1,0 +1,18 @@
+{
+  "version": "retrieval-dev-v1",
+  "split": "development_only",
+  "selection": "All two FinanceBench questions for the previously exposed 3M_2018_10K document, plus four authored numeric checks. Frozen before running retrieval. Not a held-out benchmark.",
+  "document_id": "3M_2018_10K",
+  "pdf_url": "https://raw.githubusercontent.com/patronus-ai/financebench/main/pdfs/3M_2018_10K.pdf",
+  "publisher_url": "https://investors.3m.com/financials/sec-filings/content/0001558370-19-000470/0001558370-19-000470.pdf",
+  "pdf_sha256": "faf10c53fc6f1a8aa346ec3db79145e3ae6fbb3753c8064924e174d0a973934d",
+  "pdf_pages": 160,
+  "cases": [
+    {"id": "financebench_id_03029", "source": "FinanceBench", "question": "What is the FY2018 capital expenditure amount (in USD millions) for 3M? Give a response to the question by relying on the details shown in the cash flow statement.", "evidence_pages": [60], "markers": ["Purchases of property, plant and equipment", "1,577"]},
+    {"id": "financebench_id_04672", "source": "FinanceBench", "question": "Assume that you are a public equities analyst. Answer the following question by primarily using information that is shown in the balance sheet: what is the year end FY2018 net PPNE for 3M? Answer in USD billions.", "evidence_pages": [58], "markers": ["Property, plant and equipment", "8,738"]},
+    {"id": "dev_revenue_2018", "source": "authored", "question": "What was 3M's FY2018 revenue in USD millions?", "evidence_pages": [56], "markers": ["Net sales", "32,765"]},
+    {"id": "dev_dividends_2018", "source": "authored", "question": "How much did 3M pay in dividends to shareholders in FY2018?", "evidence_pages": [60], "markers": ["Dividends paid to shareholders", "3,193"]},
+    {"id": "dev_income_2018", "source": "authored", "question": "What was net income attributable to 3M in FY2018?", "evidence_pages": [56], "markers": ["Net income attributable to 3M", "5,349"]},
+    {"id": "dev_assets_2018", "source": "authored", "question": "What were 3M's total assets at December 31, 2018?", "evidence_pages": [58], "markers": ["Total assets", "36,500"]}
+  ]
+}
