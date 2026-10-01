@@ -4,7 +4,7 @@ A local financial-report QA prototype focused on numeric extraction, with hybrid
 citations, refusal checks and reproducible experiments. Qwen3-8B, CPU BGE
 embeddings, BM25 and reciprocal-rank fusion; no paid inference API or hosted service.
 
-**Status:** local portfolio prototype verified: six demonstrations, a new live
+**Status:** local research prototype verified: six demonstrations, a new live
 question, document-separated evaluation and an isolated reproduction run.
 Four-document/two-retriever scope; not a production financial assistant.
 
@@ -42,10 +42,10 @@ include two rule-based scope checks and only one model-based refusal per method.
 The evaluation is small and not independently annotated; hybrid is not better on
 every metric. See the [case-by-case source review](docs/SOURCE_REVIEW.md).
 
-The portfolio set contains 24 numeric questions and six refusal probes. It is
+The evaluation set contains 24 numeric questions and six refusal probes. It is
 mostly authored, **not an official FinanceBench benchmark**. Reports are separated:
 3M/PepsiCo for development, AMD/CVS Health for final evaluation. See
-[evaluation and raw reports](docs/PORTFOLIO_EVALUATION.md) and
+[evaluation and raw reports](docs/EVALUATION.md) and
 [corpus provenance](docs/CORPUS.md).
 
 Final inference used a local RTX 4070 SUPER 12 GB: sampled whole-device peak
@@ -87,7 +87,7 @@ Answer -> scope, units and citation checks -> answer or refusal + original page
 [Architecture and learning guide](docs/ARCHITECTURE.md) explains the modules.
 Evaluation labels are separate from runtime inputs. Quote presence and numeric
 checks establish limited properties, not semantic proof.
-中文学习路线见[面试与理解提纲](docs/INTERVIEW_GUIDE.md)。
+中文说明见[问答流程与代码阅读指南](docs/PROJECT_GUIDE.md)。
 
 ## Limitations
 
@@ -109,7 +109,7 @@ definitions. A real quote can still support the wrong answer.
 - [Initial retrieval](docs/RETRIEVAL_CHECK.md), [query processing](docs/QUERY_EXPERIMENT.md),
   [table headers](docs/TABLE_EXPERIMENT.md), [combined comparison](docs/COMBINED_EXPERIMENT.md).
 - [Initial end-to-end failures](docs/RAG_SMOKE.md), [answer guards](docs/ANSWER_GUARDS.md),
-  [new evaluation and evidence selection](docs/PORTFOLIO_EVALUATION.md).
+  [new evaluation and evidence selection](docs/EVALUATION.md).
 
-中文：[原始需求](docs/SPEC_V1.md)、[缩减范围与验收](docs/DELIVERY_CHECKLIST.md)、
-[简历描述与指标边界](docs/RESUME.md)。[复现记录](docs/REPRODUCTION.md)说明新环境验证和缓存复用的区别。
+中文：[需求规格](docs/SPEC_V1.md)、[范围与验收](docs/DELIVERY_CHECKLIST.md)。
+[复现记录](docs/REPRODUCTION.md)说明新环境验证和缓存复用的区别。

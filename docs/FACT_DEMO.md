@@ -19,7 +19,7 @@ that exact excerpt, not an unchecked paraphrase. This helps traceability but can
 prove that the excerpt actually answers the question; manual review remains a gate.
 
 The numeric prompt, numeric schema and numeric validation remain separate and are
-not relaxed to accept text. The 30-case numeric/refusal portfolio set is unchanged.
+not relaxed to accept text. The 30-case numeric/refusal evaluation set is unchanged.
 
 ## Accepted Cases
 

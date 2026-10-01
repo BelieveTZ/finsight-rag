@@ -1,6 +1,6 @@
-# Portfolio Delivery Acceptance
+# Financial QA Acceptance
 
-Updated 2026-09-19. Delivery scope: a reproducible portfolio research prototype.
+Updated 2026-09-19. Delivery scope: a reproducible financial QA research prototype.
 No paid inference or hosted deployment. Retain all failures and development reports.
 
 GPU coordination: before **every new GPU work session**, confirm that other training
@@ -18,7 +18,7 @@ six real demonstration cases remain required: two numeric facts, two business/ri
 facts and two refusals. General accounting reasoning remains out of scope. Do not
 claim the larger standard v1 data scale or three-retriever experiment is complete.
 
-Required before resume readiness:
+Required for local acceptance:
 
 - [x] Complete the statement-aware evidence-selection experiment without relaxing checks.
 - [x] Support a fixed four-document corpus with full-PDF ingestion and pinned sources.
@@ -35,8 +35,8 @@ Required before resume readiness:
       both qualitative facts. Validate an additional non-preset interactive question.
 - [x] Capture real demonstration images and a short GIF or recording (saved-result
       walkthrough, explicitly not a live-generation recording).
-- [x] Finish Windows setup, architecture explanation, limitations, readable README,
-      actual-results-based resume bullets and interview notes.
+- [x] Finish Windows setup, architecture explanation, limitations, readable README
+      and a guide to the question/evidence workflow.
 - [x] Run tests/lint, verify documentation links and review the publishable file set.
 - [x] Publish the repository contents and verify the actual GitHub-rendered materials.
 
@@ -74,7 +74,7 @@ assets and the existing Ollama runtime, not a clean-machine install. 127 CPU tes
 and Ruff pass. The model was unloaded and the project-owned service stopped;
 the remaining local viewer does not use GPU. See [ACCEPTANCE_AUDIT.md](ACCEPTANCE_AUDIT.md).
 
-The local research prototype is ready to be described using [RESUME.md](RESUME.md).
+The local research prototype's scope and behavior are described in [PROJECT_GUIDE.md](PROJECT_GUIDE.md).
 Repository publication and GitHub rendering were verified on 2026-09-19 for
 commit `4b22b78`; see [ACCEPTANCE_AUDIT.md](ACCEPTANCE_AUDIT.md).
 
@@ -94,12 +94,12 @@ has not yet been frozen. CPU development retrieval is complete: dense 9/12 and
 hybrid 10/12 gold-page Recall@10, with weaker hybrid Recall@5 retained in the report.
 The local evidence workspace defaults to GPU disabled, supports saved real outputs
 and CPU-rendered original pages. Current generation results, final semantic review,
-live GPU interaction and final resume claims remain pending.
+live GPU interaction and final result analysis remain pending.
 
 CPU-side verification now passes 121 tests and Ruff, with local documentation-link
 checks included. Desktop/mobile screenshots and a labeled saved-result GIF are
 available in `docs/images/`; see `docs/UI_VALIDATION.md`. Windows setup, architecture,
-limitations and a Chinese interview/learning outline have been updated. No commit
+limitations and a Chinese project guide have been updated. No commit
 or push has been made. The next substantive acceptance step requires an explicitly
 confirmed GPU session for development generation, then configuration freezing and
 final evaluation.

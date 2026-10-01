@@ -33,7 +33,7 @@ check fixed this mismatch; narrative references still fail. The
 
 ## Missing Units and Wrong Scaling
 
-The [initial portfolio generation run](../artifacts/portfolio/20260919T064443995840Z-development-rag.json)
+The [initial development generation run](../artifacts/portfolio/20260919T064443995840Z-development-rag.json)
 contains several distinct errors:
 
 - Dense 3M revenue proposed 31,500 million while citing a 12.3-billion industrial

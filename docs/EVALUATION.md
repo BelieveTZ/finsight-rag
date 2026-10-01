@@ -1,4 +1,4 @@
-# Portfolio Evaluation
+# Financial QA Evaluation
 
 Status, 2026-09-19: development and frozen document-separated final generation
 completed locally. All failures are retained. The main result is a small authored

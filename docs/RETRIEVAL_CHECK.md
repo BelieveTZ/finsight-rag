@@ -159,4 +159,4 @@ Technical references: [FastEmbed supported models](https://qdrant.github.io/fast
 Still missing: multi-document development/held-out evaluation, validated query cleanup,
 table-aware chunking, reranking, generated answers from retrieved evidence, and a UI.
 The next useful unit is one controlled retrieval improvement, keeping this baseline
-and all failures, before connecting generation or expanding portfolio claims.
+and all failures, before connecting generation or expanding supported capabilities.

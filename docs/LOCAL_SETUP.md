@@ -48,7 +48,7 @@ until the server is stopped. Use Ctrl+C to stop the web server; avoid interrupti
 an active question before cleanup finishes. Do not expose either port externally.
 
 Read [architecture](ARCHITECTURE.md) for what each step does, and
-[evaluation](PORTFOLIO_EVALUATION.md) for the development/final commands.
+[evaluation](EVALUATION.md) for the development/final commands.
 The workspace has separate Numeric and Report fact modes. Fact mode displays an
 original excerpt and supports the selected report year only; the two fixed fact
 demonstrations passed source review. The [six-case demo protocol](FACT_DEMO.md) explains its limits

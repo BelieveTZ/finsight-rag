@@ -1,6 +1,6 @@
 # Corpus and Annotation Record
 
-Prepared 2026-09-19 before portfolio model evaluation. See the pre-experiment
+Prepared 2026-09-19 before model evaluation. See the pre-experiment
 [selection policy](DELIVERY_CHECKLIST.md) and runtime registry in `data/corpus.json`.
 
 | Document | Split | PDF pages | Indexed chunks | Empty text pages |
@@ -27,7 +27,7 @@ No blanket PDF redistribution license is assumed. Full PDFs, extracted text, mod
 weights and private prompt traces stay in ignored local directories. Publish source
 links, checksums, independently authored question labels and short evidence excerpts
 needed to inspect results, not the upstream annotated dataset or whole reports.
-The original two 3M FinanceBench questions remain attributed. The portfolio dataset
+The original two 3M FinanceBench questions remain attributed. The evaluation dataset
 is mostly authored: do **not** call its score a FinanceBench benchmark score.
 
 ## Frozen Questions and Verification
@@ -75,5 +75,5 @@ drop failures, broaden labels silently or reuse an exposed final set as held out
 ```
 
 Per-document extraction/index audits are in `artifacts/corpus/`. The runtime
-registry has no questions, expected values or gold evidence pages. The portfolio
+registry has no questions, expected values or gold evidence pages. The local
 application uses that registry rather than loading evaluation labels.
